@@ -1,4 +1,4 @@
-FROM wavesoftware/php7
+FROM quay.io/wavesoftware/php7
 RUN apt-get update && apt-get install -y \
     imagemagick \
     ffmpeg \
