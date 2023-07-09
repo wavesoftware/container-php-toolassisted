@@ -1,4 +1,4 @@
-FROM quay.io/wavesoftware/php7
+FROM quay.io/wavesoftware/php
 RUN apt-get update && apt-get install -y \
     ffmpeg \
     libreoffice \
